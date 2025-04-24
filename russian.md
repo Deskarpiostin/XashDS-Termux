@@ -1,5 +1,5 @@
 # XashDS-Termux
-| English(https://github.com/Deskarpiostin/XashDS-Termux/README.md | Русский |
+| [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
 
 Этот репозиторий покажет вам, как создать LAN-серверы для [Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs).
 
