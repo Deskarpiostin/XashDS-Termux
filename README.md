@@ -22,7 +22,7 @@ Note that you need to have basic knowledge with Termux, either you will struggle
 _Note: If you want to start Counter-Strike 1.6 server, then you need to paste "cstrike" folder also, or if you want to start Team Fortress Classic server, then you need to paste the "tfc" folder.
 9. Copy next commands to the Termux:
 ```bash
-curl
+curl -sL https://raw.githubusercontent.com/Deskarpiostin/XashDS-Termux/refs/heads/main/files/setup.sh | bash
 ```
 ```bash
 proot-distro login debian
@@ -52,3 +52,9 @@ Bus error:
 make sure you didn't typed "public 1" into last command, because sometimes it's results an bus error.
 Can't find the file:
 Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
+
+
+
+
+Todos:
+- allow making public servers
