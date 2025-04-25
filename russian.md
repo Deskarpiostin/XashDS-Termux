@@ -1,5 +1,5 @@
 # XashDS-Termux
-| English(https://github.com/Deskarpiostin/XashDS-Termux/README.md | Русский |
+| [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
 
 Этот репозиторий покажет вам, как создать LAN-серверы для [Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs).
 
@@ -8,7 +8,7 @@
 - Half-Life (valve)
 - И, возможно, Team Fortress Classic?
 
-Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться.
+Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться. Также надо скомпилировать hl.so из [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
 
 // Установка
 1. Установите файл _xashds-linux-arm64.tar.gz_ из [непрерывной мастер-сборки Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs/releases).
@@ -54,7 +54,7 @@ tfc, если хотите запустить сервер Team Fortress Classic
 
 
 // Устранение неполадок Bus error: убедитесь, что вы не ввели «public 1» в последней команде, так как это иногда вызывает ошибку Bus error.
-Не удаётся найти файл: убедитесь, что вы скачали именно xashds-linux-arm64.tar.gz из [continuous мастер-сборки [Xash3D-FWGS](https://github.com/fwgs/xash3d-fwgs/releases/), а не какой-либо другой файл.
+Не удаётся найти файл: убедитесь, что вы скачали именно xashds-linux-arm64.tar.gz из [continuous мастер-сборки [Xash3D-FWGS](https://github.com/fwgs/xash3d-fwgs/releases/), а не какой-либо другой файл. Или скомпилировал ли ты Half-Life SDK через hlsdk-portable?
 
 Todos:
 разрешить создание публичных серверов

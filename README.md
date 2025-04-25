@@ -1,5 +1,5 @@
 # XashDS-Termux
-| English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/russian.md) |
+| English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/main/russian.md) |
 
 This repository that will show you how to make LAN servers for Xash3D-FWGS.
 
@@ -9,6 +9,8 @@ Supported games:
 - And maybe Team Fortress Classic?
 
 Note that you need to have basic knowledge with Termux, either you will struggle in easy situations. Any issues with easy solution will be ignored.
+
+You need to compile hl.so for arm64 through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 // Setup
 1. Install _xashds-linux-arm64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases).
@@ -52,6 +54,7 @@ Bus error:
 make sure you didn't typed "public 1" into last command, because sometimes it's results an bus error.
 Can't find the file:
 Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
+Or did you compile the half-life sdk?
 
 
 
