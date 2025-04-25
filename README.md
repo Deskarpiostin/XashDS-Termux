@@ -38,7 +38,7 @@ chmod +x *
 ```bash
 ./xash -game <game> -maxplayers 32 -map <mapname> +hostname <name> <other commands if you want, should start with "-">
 ```
-Change the _<game>_ into:
+Change the _"<game>"_ into:
 -"cstrike" if you want to start Counter-Strike 1.6 server
 -"valve" if you want to start Half-Life DM server
 -"tfc" if you want to start Team Fortress Classic server (probably not gonna work)
