@@ -36,16 +36,16 @@ cd ~/xashds
 chmod +x *
 ```
 ```bash
-./xash -game <game> -maxplayers 32 -map <mapname> +hostname <name> <other commands if you want, should start with "-">
+./xash -game <gamename> -maxplayers 32 -map <mapname> +hostname <name> <other commands if you want, should start with "-">
 ```
-Change the _"<game>"_ into:
+Change the _gamename_ into:
 -"cstrike" if you want to start Counter-Strike 1.6 server
 -"valve" if you want to start Half-Life DM server
 -"tfc" if you want to start Team Fortress Classic server (probably not gonna work)
 
-Change the _<map>_ to name of the map in your game, make sure they're exist.
+Change the _mapname_ to name of the map in your game, make sure they're exist.
 
-Change the _<name>_ to the name of your server.
+Change the _name_ to the name of your server.
 
 And delete or change the _<other commands if you want, should start with "-">_ if you want to add more commands.
 
