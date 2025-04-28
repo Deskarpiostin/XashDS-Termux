@@ -1,6 +1,8 @@
 # XashDS-Termux
 | [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
 
+## Этот метод не имеет поддержку Metamod
+
 Этот репозиторий покажет вам, как создать LAN-серверы для [Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs).
 
 Поддерживаемые игры:
@@ -34,7 +36,7 @@ cd ~/xashds
 chmod +x *
 ```
 ```bash
-./xash -game <game> -maxplayers 32 -map <mapname> +hostname <name> <other commands if you want, should start with "-">
+./xash -dedicated -game <game> <other commands>
 ```
 Замените:
 
@@ -47,14 +49,12 @@ valve, если хотите запустить сервер Half-Life DM
 tfc, если хотите запустить сервер Team Fortress Classic (возможно, не будет работать)
 
 
-_mapname_ на название карты в вашей игре, убедитесь, что она существует.
+замените __other commands__ на команды которые вы ходите добавить, удалите это если не хотите
 
-_name_ на имя вашего сервера.
-И при желании удалите или измените <other commands if you want, should start with "-">, если хотите добавить другие параметры (они должны начинаться с «-»).
-
+// Запуск публичного сервера
+1. Перенаправьте порт вашего телефона на 27015 UDP
+2. Перед запуском сервера напишите __public 1__ и __sv_lan 0__ в консоль
+3. Отключите любые VPN и Proxy, если включены
 
 // Устранение неполадок Bus error: убедитесь, что вы не ввели «public 1» в последней команде, так как это иногда вызывает ошибку Bus error.
 Не удаётся найти файл: убедитесь, что вы скачали именно xashds-linux-arm64.tar.gz из [continuous мастер-сборки [Xash3D-FWGS](https://github.com/fwgs/xash3d-fwgs/releases/), а не какой-либо другой файл. Или скомпилировал ли ты Half-Life SDK через hlsdk-portable?
-
-Todos:
-разрешить создание публичных серверов
