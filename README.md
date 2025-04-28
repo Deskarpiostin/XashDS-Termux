@@ -36,18 +36,22 @@ cd ~/xashds
 chmod +x *
 ```
 ```bash
-./xash -game <gamename> -maxplayers 32 -map <mapname> +hostname <name> <other commands if you want, should start with "-">
+./xash -dedicated -game <gamename> <other commands>
 ```
+**Note: before starting server, type "hostname <server name>", and "maxplayers <max player count>"**
 Change the _gamename_ into:
 -"cstrike" if you want to start Counter-Strike 1.6 server
 -"valve" if you want to start Half-Life DM server
 -"tfc" if you want to start Team Fortress Classic server (probably not gonna work)
 
-Change the _mapname_ to name of the map in your game, make sure they're exist.
+And delete or change the _<other commands>_ if you want to add more commands. Delete if you dont want to
 
-Change the _name_ to the name of your server.
+//Making online server
+**Note: i do not recommend doing this. Other players will have 150-200 ping on server, better use VDS for hosting servers**
 
-And delete or change the _<other commands if you want, should start with "-">_ if you want to add more commands.
+1. To make your server online, port foward your phone to the 27015 UDP
+2. Before starting the server, type _-public 1_ and _sv_lan 0_
+3. Turn of any VPN/Proxy turned on
 
 //Troubleshooting
 Bus error: 
@@ -55,9 +59,3 @@ make sure you didn't typed "public 1" into last command, because sometimes it's 
 Can't find the file:
 Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
 Or did you compile the half-life sdk?
-
-
-
-
-Todos:
-- allow making public servers
