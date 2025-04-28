@@ -1,6 +1,8 @@
 # XashDS-Termux
 | English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/main/russian.md) |
 
+## *This method can't make servers with Metamod**
+
 This repository that will show you how to make LAN servers for Xash3D-FWGS.
 
 Supported games:
