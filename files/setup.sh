@@ -10,7 +10,7 @@ echo "Installing Debian (1/2 command are processed right now)"
 # debian installation
 proot-distro install debian > /dev/null 2>&1
 
-echo "Copying XashDS folder (2/2 command are processed right now)
+echo "Copying XashDS folder (2/2 command are processed right now)"
 
 # create a copy of xashds for debian
 proot-distro login debian > /dev/null 2>&1
