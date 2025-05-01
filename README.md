@@ -55,7 +55,7 @@ And delete or change the _<other commands>_ if you want to add more commands. De
 2. Before starting the server, type _-public 1_ and _sv_lan 0_
 3. Turn of any VPN/Proxy turned on
 
-//Troubleshooting
+## Troubleshooting
 Bus error: 
 make sure you didn't typed "public 1" into last command, because sometimes it's results an bus error.
 Can't find the file:
