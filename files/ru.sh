@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Это настроит твой Xash3D сервер на Termux, может занять время.."
+echo "Установка proot-distro (1/1 команда в процессе сейчас)"
 
 # proot-distro
 pkg install proot-distro -y > /dev/null 2>&1
@@ -10,7 +11,7 @@ echo "Установка Debian (1/2 команда в процессе сейч
 # debian installation
 proot-distro install debian > /dev/null 2>&1
 
-echo "Копирую XashDS папку (2/2 команда в процессе сейчас)"
+echo "Копирую XashDS папку (3/3 команда в процессе сейчас)"
 
 # create a copy of xashds for debian
 proot-distro login debian > /dev/null 2>&1
