@@ -53,7 +53,7 @@ And delete or change the _<other commands>_ if you want to add more commands. De
 
 1. To make your server online, port foward your phone to the 27015 UDP
 2. Before starting the server, type _-public 1_ and _sv_lan 0_
-3. Turn of any VPN/Proxy turned on
+3. Turn off any VPN/Proxy if exist
 
 ## Troubleshooting
 Bus error: 
