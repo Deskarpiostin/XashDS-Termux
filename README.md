@@ -12,7 +12,7 @@ Supported games:
 
 Note that you need to have basic knowledge with Termux, either you will struggle in easy situations. Any issues with easy solution will be ignored.
 
-You need to compile hl.so for arm64 through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
+You need to compile hl.so for arm64 linux/x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 ## Setup
 1. Install _xashds-linux-arm64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases).
