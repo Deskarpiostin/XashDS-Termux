@@ -10,7 +10,7 @@
 - Half-Life (valve)
 - И, возможно, Team Fortress Classic?
 
-Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться. Также надо скомпилировать hl.so из [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
+Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться. Также надо скомпилировать hl.so для arm64 Linux / x86 linux из [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
 
 ## Установка
 1. Установите файл _xashds-linux-arm64.tar.gz_ из [непрерывной мастер-сборки Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs/releases).
