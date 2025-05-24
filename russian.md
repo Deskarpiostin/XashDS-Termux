@@ -1,7 +1,7 @@
 # XashDS-Termux
 | [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
 
-Этот бранч изпользует Box64 для эмулирования x86_64 файлов. Этот метод имеет поддержку Metamod.
+### Этот метод не имеет поддержку Metamod.
 
 Этот репозиторий покажет вам, как создать LAN-серверы для [Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs).
 
@@ -10,10 +10,10 @@
 - Half-Life (valve)
 - Team Fortress Classic (tfc)
 
-Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться. Также надо скомпилировать hl.so для x86 linux из [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
+Обратите внимание, что вам нужны базовые знания Termux, иначе вы столкнётесь с трудностями в простых ситуациях. Любые проблемы с простым решением будут игнорироваться. Также надо скомпилировать hl.so для arm64 linux из [hlsdk-portable](https://github.com/FWGS/hlsdk-portable)
 
 ## Установка
-1. Установите файл _xashds-linux-x86_64.tar.gz_ из [непрерывной мастер-сборки Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
+1. Установите файл _xashds-linux-arm64.tar.gz_ из [непрерывной мастер-сборки Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
 2. Откройте архив с помощью ZArchiver.
 3. Выделите все файлы.
 4. Длительно нажмите на один из выделенных файлов.
