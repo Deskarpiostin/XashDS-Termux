@@ -1,21 +1,21 @@
 # XashDS-Termux
 | English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/main/russian.md) |
 
-### *This method can't make servers with Metamod*
+x86_64 branch uses box64 to start x86_64 apps. You can use this method to use Metamod on your server.
 
-This repository that will show you how to make LAN servers for Xash3D-FWGS.
+This repository that will show you how to make LAN or multiplayer servers for Xash3D-FWGS.
 
 Supported games:
 - Counter-Strike 1.6 (cstrike)
 - Half-Life (valve)
-- And maybe Team Fortress Classic?
+- And Team Fortress Classic (tfc)
 
 Note that you need to have basic knowledge with Termux, either you will struggle in easy situations. Any issues with easy solution will be ignored.
 
-You need to compile hl.so for arm64 linux/x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
+You need to compile hl.so for x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 ## Setup
-1. Install _xashds-linux-arm64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
+1. Install _xashds-linux-x86_64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
 2. Open archive using ZArchiver.
 3. Select all files.
 4. Make long tap at one of the selected files.
@@ -55,9 +55,11 @@ And delete or change the _<other commands>_ if you want to add more commands. De
 2. Before starting the server, type _-public 1_ and _sv_lan 0_
 3. Turn off any VPN/Proxy if exist
 
-## Troubleshooting
-Bus error: 
+# Troubleshooting
+## Bus error: 
 make sure you didn't typed "public 1" into last command, because sometimes it's results an bus error.
-Can't find the file:
-Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
-Or did you compile the half-life sdk?
+## Can't find the file:
+Make sure you downloaded the **xashds-linux-x86_64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
+Did you compile the half-life sdk?
+## Permission denied
+Enable permission to open ./xash file by using "chmod +x *" while in xashds directory.
