@@ -1,5 +1,5 @@
 # XashDS-Termux
-| English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/main/russian.md) |
+| English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/x86_64/russian.md) |
 
 x86_64 branch uses box64 to start x86_64 apps. You can use this method to use Metamod on your server.
 
