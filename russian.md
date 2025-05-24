@@ -26,7 +26,7 @@
    _Примечание: если вы хотите запустить сервер Counter-Strike 1.6, нужно дополнительно скопировать папку «cstrike», а если Team Fortress Classic – папку «tfc»_
 9. Скопируйте в Termux следующие команды:
 ```bash
-curl -sL https://raw.githubusercontent.com/Deskarpiostin/XashDS-Termux/refs/heads/main/files/ru.sh | bash
+curl -sL https://raw.githubusercontent.com/Deskarpiostin/XashDS-Termux/refs/heads/x86_64/files/ru.sh | bash
 ```
 ```bash
 proot-distro login debian
