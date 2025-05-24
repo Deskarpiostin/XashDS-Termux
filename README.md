@@ -8,11 +8,11 @@ This repository that will show you how to make LAN servers for Xash3D-FWGS.
 Supported games:
 - Counter-Strike 1.6 (cstrike)
 - Half-Life (valve)
-- And maybe Team Fortress Classic?
+- Team Fortress Classic (tfc)
 
 Note that you need to have basic knowledge with Termux, either you will struggle in easy situations. Any issues with easy solution will be ignored.
 
-You need to compile hl.so for arm64 linux/x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
+You need to compile hl.so for arm64 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 ## Setup
 1. Install _xashds-linux-arm64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
@@ -44,7 +44,7 @@ chmod +x *
 Change the _gamename_ into:
 -"cstrike" if you want to start Counter-Strike 1.6 server
 -"valve" if you want to start Half-Life DM server
--"tfc" if you want to start Team Fortress Classic server (probably not gonna work)
+-"tfc" if you want to start Team Fortress Classic server
 
 And delete or change the _<other commands>_ if you want to add more commands. Delete if you dont want to
 
@@ -56,8 +56,10 @@ And delete or change the _<other commands>_ if you want to add more commands. De
 3. Turn off any VPN/Proxy if exist
 
 ## Troubleshooting
-Bus error: 
+### Bus error: 
 make sure you didn't typed "public 1" into last command, because sometimes it's results an bus error.
 Can't find the file:
-Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
+### Make sure you downloaded the **xashds-linux-arm64.tar.gz** from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases), not any other files.
 Or did you compile the half-life sdk?
+### Permission denied
+Enable permission to open ./xash file by using "chmod +x *" while in xashds directory.
