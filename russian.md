@@ -1,7 +1,7 @@
 # XashDS-Termux
 | [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
 
-**Этот метод не имеет поддержку Metamod.**
+Этот бранч изпользует Box64 для эмулирования x86_64 файлов. Этот метод имеет поддержку Metamod.
 
 Этот репозиторий покажет вам, как создать LAN-серверы для [Xash3D-FWGS](https://github.com/FWGS/xash3d-fwgs).
 
