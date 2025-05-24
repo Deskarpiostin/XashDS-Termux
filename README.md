@@ -15,7 +15,7 @@ Note that you need to have basic knowledge with Termux, either you will struggle
 You need to compile hl.so for x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 ## Setup
-1. Install _xashds-linux-x86_64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-arm64.tar.gz).
+1. Install _xashds-linux-x86_64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-x86_64.tar.gz).
 2. Open archive using ZArchiver.
 3. Select all files.
 4. Make long tap at one of the selected files.
