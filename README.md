@@ -1,3 +1,5 @@
+# [Big thanks mcagabe19 for repository that responses for emulating x86_64!](https://github.com/HomuHomu833-stuff/termux-proot-x86)
+
 # XashDS-Termux
 | English | [Русский](https://github.com/Deskarpiostin/XashDS-Termux/blob/x86_64/russian.md) |
 
@@ -12,10 +14,10 @@ Supported games:
 
 Note that you need to have basic knowledge with Termux, either you will struggle in easy situations. Any issues with easy solution will be ignored.
 
-You need to compile hl.so for x86 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
+You need to compile hl.so for amd64 linux through [hlsdk-portable](https://github.com/FWGS/hlsdk-portable), or you will have an library error
 
 ## Setup
-1. Install _xashds-linux-x86_64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-x86_64.tar.gz).
+1. Install _xashds-linux-amd64.tar.gz_ file from [Xash3D-FWGS continuous master build](https://github.com/FWGS/xash3d-fwgs/releases/download/continuous/xashds-linux-amd64.tar.gz).
 2. Open archive using ZArchiver.
 3. Select all files.
 4. Make long tap at one of the selected files.
@@ -26,7 +28,7 @@ You need to compile hl.so for x86 linux through [hlsdk-portable](https://github.
 _Note: If you want to start Counter-Strike 1.6 server, then you need to paste "cstrike" folder also, or if you want to start Team Fortress Classic server, then you need to paste the "tfc" folder.
 9. Copy next commands to the Termux:
 ```bash
-curl -sL https://raw.githubusercontent.com/Deskarpiostin/XashDS-Termux/refs/heads/main/files/setup.sh | bash
+curl -sL https://raw.githubusercontent.com/Deskarpiostin/XashDS-Termux/refs/heads/x86_64/files/setup.sh | bash
 ```
 ```bash
 proot-distro login debian
