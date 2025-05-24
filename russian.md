@@ -1,5 +1,5 @@
 # XashDS-Termux
-| [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/main?tab=readme-ov-file) | Русский |
+| [English](https://github.com/Deskarpiostin/XashDS-Termux/tree/x86_64?tab=readme-ov-file) | Русский |
 
 Этот бранч изпользует Box64 для эмулирования x86_64 файлов. Этот метод имеет поддержку Metamod.
 
